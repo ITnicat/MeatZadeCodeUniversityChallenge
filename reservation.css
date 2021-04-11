@@ -1,0 +1,194 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	min-width: 1270px;
+	background: black;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+#container {
+	max-width: 1270px;
+}
+
+	#Header {
+		display: block;
+		position: relative;
+		width: 1200px;
+		height: 600px;
+		margin: auto;
+		margin-top: 20px;
+	}
+
+	#upperHeader {
+		width: 100%;
+		height: 80px;
+	}
+
+	.logoHeader {
+		display: block;
+		position: relative;
+		left: 12%;
+		width: 280px;
+		height: 280px;
+		background: url(meatzade.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin-top: -5px;
+		float: left;
+	}
+
+
+	#ulTopRight {
+		list-style-type: none;
+		float: right;
+		margin-top: 30px;
+	}
+
+	#ulTopRight li {
+		display: inline-block;
+		position: relative;
+		word-spacing: 5px;
+		border-right: 1px solid #f7f1e3;
+		font-size: 20px;
+		float: left;
+		left: -10%;
+		padding: 8px;
+	}
+
+	#ulTopRight li a:hover {
+		color: #ffb142;
+	}
+
+	#lowerHeader {
+		width: 100%;
+		height: 500px;
+		float: left;
+	} 
+
+	#leftMiddleContainer {
+		width: 500px;
+		height: 400px;
+		float: left;
+		position: relative;
+	}
+
+	.textContainer {
+		display: block;
+		position: relative;
+		top: -10%;
+		left: -10%;
+		width: 500px;
+		height: 170px;
+		color: #ffeaa7;
+		font-size: 23px;
+		text-align: center;
+		font-family: 'Great Vibes', cursive;
+		margin-left: 100px;
+	}
+
+	.buttonInside {
+		position: relative;
+		top: 5%;
+		left: 17%;
+		width: 150px;
+		height: 20px;
+		border: 1px solid white;
+		text-align: center;
+		padding: 20px;	
+		margin-left: 120px;
+		background: #ff6348;
+		margin-top: 20px;
+	}
+
+	.buttonInside a {
+		display: inline-block;
+		font-size: 20px;
+
+	}
+
+	#rightMiddleContainer {
+		display: block;
+		position: relative;
+		top: -25%;
+		left: 50%;
+		width: 500px;
+		height: 450px;
+		background: url(fon2.jpg);
+		background-size: contain;
+		background-repeat: no-repeat;
+
+	}
+
+	#reservationSection {
+		width: 1270px;
+		height: 550px;
+		background: black;
+		margin-top: 80px;
+	}
+
+	#reservationContainer {
+		display: block;
+		position: relative;
+		top: 90%;
+		width: 1270px;
+		height: 500px;
+		background: url(restoran.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.cover {
+		width: 100%;
+		height: 500px;
+		margin: auto;
+		background: rgba(0,0,0,0.4);
+	}
+
+	.cover p {
+		display: block;
+		position: relative;
+		left: -90px;
+		font-family: 'Great Vibes', cursive;
+		color: #bdc3c7;
+		text-align: center;
+		font-size: 60px;
+		padding: 7%;
+		line-height: 5px;
+	}
+
+	.cover h1 {
+		display: block;
+		position: relative;
+		top: -90%;
+		font-family: 'Merriweather', serif;
+		font-size: 40px;
+		color: white;
+		text-shadow: 2px 2px 2px white;
+		text-align: center;
+		margin-top: 20px; 
+	}
+
+	.buttonReserv {
+		display: block;
+		position: relative;
+		top: -80%;
+		width: 150px;
+		height: 20px;
+		border: 1px solid white;
+		text-align: center;
+		padding: 20px;
+		margin: auto;
+		margin-top: 30px;
+		transition: 2s;
+	}
+
+	.buttonReserv:hover {
+		background: #ff6348;
+	}

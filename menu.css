@@ -1,0 +1,195 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+body {
+	min-width: 1270px;
+	background: black;
+}
+
+#container {
+	max-width: 1270px;
+}
+
+	#Header {
+		display: block;
+		position: relative;
+		width: 1200px;
+		height: 120px;
+		margin: auto;
+		margin-top: 20px;
+		background: black;
+	}
+
+
+	.logoHeader {
+		display: block;
+		position: relative;
+		left: 12%;
+		width: 260px;
+		height: 260px;
+		background: url(meatzade.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin-top: -5px;
+		float: left;
+	}
+
+
+	#ulTopRight {
+		list-style-type: none;
+		float: right;
+		margin-top: 30px;
+	}
+
+	#ulTopRight li {
+		display: inline-block;
+		position: relative;
+		word-spacing: 5px;
+		border-right: 1px solid #f7f1e3;
+		font-size: 20px;
+		float: left;
+		left: -10%;
+		padding: 8px;
+	}
+
+	#ulTopRight li a:hover {
+		color: #ffb142;
+	}
+
+	#menuContainer {
+		width: 65%;
+		height: 930px;
+		margin: auto;
+		margin-top: 20px;
+	}
+
+
+	#menuDetails {
+		width: 100%;
+		height: 930px;
+		background: #0652DD;
+	}
+
+	#menuB {
+		width: 100%;
+		height: 80px;
+	}
+
+	#menuPicture {
+		width: 100%;
+		height: 200px;
+		background: url(m.jpg);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+
+	#pictureText {
+		display: block;
+		position: relative;
+		background: #130f40;
+		width: 50%;
+		height: 80px;
+		margin: auto;
+		top: 59%;
+	}
+
+	#pictureText h1 {
+		color: white;
+		text-align: center;
+		padding: 30px;
+		font-size: 45px;
+		font-family: 'Great Vibes', cursive;
+	}
+
+#menuInsideFooter h1 {
+	width: 30%;
+	margin: auto;
+	margin-top: 25px;
+	color: #ffdd59;
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+
+#menuText {
+	width: 85%;
+	height: 520px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.leftMenuText {
+	width: 50%;
+	height: 280px;
+	float: left;
+}
+
+.leftMenuText p {
+	color: white;
+	font-size: 14px;
+	font-family: 'Merriweather', serif;
+}
+
+.rightMenuText {
+	width: 45%;
+	height: 280px;
+	float: right;
+} 
+
+.rightMenuText p {
+	color: white;
+	font-size: 14px;
+	font-family: 'Merriweather', serif;
+}
+
+#menuText h1 {
+	display: block;
+	position: relative;
+	top: 3%;
+	width: 50%;
+	margin: auto;
+	color: #ffdd59;
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+
+#beverageText {
+	display: block;
+	position: relative;
+	top: 5%;
+	width: 100%;
+	margin: auto;
+	height: 130px;
+}
+
+.leftBeverageText {
+	width: 50%;
+	height: 130px;
+	float: left;
+}
+
+.leftBeverageText p {
+	color: white;
+	font-size: 14px;
+	font-family: 'Merriweather', serif;
+}
+
+.rightBeverageText {
+	width: 45%;
+	height: 130px;
+	float: right;
+} 
+
+.rightBeverageText p {
+	color: white;
+	font-size: 14px;
+	font-family: 'Merriweather', serif;
+}
+
+

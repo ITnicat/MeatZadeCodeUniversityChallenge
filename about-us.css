@@ -1,0 +1,134 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+body {
+	min-width: 1270px;
+	background: black;
+}
+
+#container {
+	max-width: 1270px;
+}
+
+	#Header {
+		display: block;
+		position: relative;
+		width: 1200px;
+		height: 120px;
+		margin: auto;
+		margin-top: 20px;
+		background: black;
+	}
+
+
+	.logoHeader {
+		display: block;
+		position: relative;
+		left: 12%;
+		width: 260px;
+		height: 260px;
+		background: url(meatzade.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin-top: -5px;
+		float: left;
+	}
+
+
+	#ulTopRight {
+		list-style-type: none;
+		float: right;
+		margin-top: 30px;
+	}
+
+	#ulTopRight li {
+		display: inline-block;
+		position: relative;
+		word-spacing: 5px;
+		border-right: 1px solid #f7f1e3;
+		font-size: 20px;
+		float: left;
+		left: -10%;
+		padding: 8px;
+	}
+
+	#ulTopRight li a:hover {
+		color: #ffb142;
+	}
+
+	#infoSection {
+		width: 1275px;
+		height: 825px;
+		background: white;
+	}
+
+	#infoContainer {
+		display: block;
+		position: relative;
+		top: -70px;
+		width: 100%;
+		height: 400px;
+		border: 2px solid white;
+		margin: auto;
+		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.rightInfo {
+		width: 60%;
+		height: 500px;
+		background: white;
+		margin: auto;
+	}
+
+	.rightInfo h2 {
+		color: #2C3A47;
+		font-family: 'Great Vibes', cursive;
+		font-size: 60px;
+		letter-spacing: 2px;
+		text-align: center;
+
+	}
+
+	.rightInfo h1 {
+		text-align: center;
+		margin-top: 30px;
+		font-size: 50px;
+		font-family: 'Merriweather', serif;
+	}
+
+	.rightInfo p {
+		width: 70%;
+		margin: auto;
+		margin-top: 30px;
+		line-height: 23px;
+		font-size: 20px;
+	}
+
+	.rightInfo a {
+		display: block;
+		position: relative;
+		top: 2%;
+		left: 15%;
+		color: grey;
+		margin: auto;
+	}
+
+	.borderP {
+		border-top: 3px solid black; 
+	}
+
+	iframe {
+		display: block;
+		position: relative;
+		top: 10%;
+		left: -43%;
+	}
